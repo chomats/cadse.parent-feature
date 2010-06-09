@@ -20,29 +20,19 @@
 				<version>0.8-SNAPSHOT</version>
 				<extensions>true</extensions>
 			</plugin>
+			<plugin>
+				<groupId>fr.imag.adele.maven</groupId>
+				<artifactId>maven-eclipse-plugin</artifactId>
+				<version>0.8-SNAPSHOT</version>
+				<extensions>true</extensions>
+				<executions>
+					<execution>
+						<goals>
+							<goal>package-feature-source</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
 		</plugins>
 	</build>
-
-	<profiles>
-		<profile>
-			<id>update-site</id>
-			<build>
-				<plugins>
-					<plugin>
-						<groupId>fr.imag.adele.maven</groupId>
-						<artifactId>maven-eclipse-plugin</artifactId>
-						<version>0.8-SNAPSHOT</version>
-						<extensions>true</extensions>
-						<executions>
-							<execution>
-								<goals>
-									<goal>package-feature-source</goal>
-								</goals>
-							</execution>
-						</executions>
-					</plugin>
-				</plugins>
-			</build>
-		</profile>
-	</profiles>
 </project>
