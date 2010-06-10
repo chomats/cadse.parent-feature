@@ -17,13 +17,13 @@
 			<plugin>
 				<groupId>fr.imag.adele.maven</groupId>
 				<artifactId>maven-eclipse-plugin</artifactId>
-				<version>0.9-SNAPSHOT</version>
+				<version>${version.fr.imag.adele.maven}</version>
 				<extensions>true</extensions>
 			</plugin>
 			<plugin>
 				<groupId>fr.imag.adele.maven</groupId>
 				<artifactId>maven-eclipse-plugin</artifactId>
-				<version>0.9-SNAPSHOT</version>
+				<version>${version.fr.imag.adele.maven}</version>
 				<extensions>true</extensions>
 				<executions>
 					<execution>
