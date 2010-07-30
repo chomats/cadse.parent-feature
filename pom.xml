@@ -6,6 +6,11 @@
 		<version>2.3.0-SNAPSHOT</version>
 		<relativePath>../fr.imag.adele.cadse.parent</relativePath>
 	</parent>
+        <scm>
+                <connection>scm:hg:ssh://hg@henry/${artifactId}</connection>
+                <developerConnection>scm:hg:ssh://hg@henry/${artifactId}</developerConnection>
+                <url>http://henry:8000/${artifactId}</url>
+        </scm>
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>fr.imag.adele.cadse</groupId>
 	<artifactId>fr.imag.adele.cadse.parent.feature</artifactId>
